@@ -1,0 +1,31 @@
+.navbar {
+  padding: 20px;
+  background-color: #00adb5;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5em;
+}
+
+.nav-items {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8em;
+  /* margin-right: 30px; */
+}
+
+#logo {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}

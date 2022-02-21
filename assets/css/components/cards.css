@@ -1,0 +1,47 @@
+.education-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 14px;
+  margin: 0 2em;
+  /* align-items: center; */
+}
+
+.card {
+  font-family: "Open Sans", sans-serif;
+  height: 250px;
+  background-color: white;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 32px;
+  color: #393e46;
+}
+
+.card p {
+  font-size: 14px;
+  opacity: 0.8;
+  margin: 0;
+  text-align: center;
+  color: #393e46;
+}
+
+.card-logo {
+  color: #00adb5;
+  font-size: 56px;
+  margin: 48px 0;
+}
+
+hr {
+  margin: 10px 0;
+}
